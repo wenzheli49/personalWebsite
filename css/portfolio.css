@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.portfoliolist {
+  display: flex;
+  font-size: 30px;
+}
+
+.portfoliolist ul {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 70px;
+}
+@media screen and (max-width: 700px) {
+  .portfoliolist ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 5px;
+  }
+}
+
+.portfoliolist li {
+  width: 90%;
+  list-style: none;
+}
+
+.portfoliolist img {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 800px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 850px) {
+  .portfoliolist img {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    border-radius: 5px;
+  }
+}
+
+
+.brief {
+  text-align: left;
+  padding-left: 40px;
+  flex: 1;
+  width: 80%;
+  font-size: 24px;
+  margin: 0px auto;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+  .brief {
+    text-align: left;
+    padding-left: 2px;
+    flex: 1;
+    width: 100%;
+    margin: 0px auto;
+    font-size: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  }
+}
+
+.brief p {
+  padding: 8px 10px;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1;
+  text-align: right;
+}
+
+.portfoliolist h3 {
+  padding: 5px 5px 5px 5px;
+  width: 100%;
+  font-size: 24px;
+  color: #333333;
+  background-color: rgb(240, 238, 238);
+  border: 2px solid #e7e7e7;
+}
+
+@media screen and (max-width: 700px) {
+  .portfoliolist h3 {
+    padding: 5px 10px 5px 20px;
+    width: 100%;
+    font-size: 16px;
+    color: #333333;
+    background-color: rgb(240, 238, 238);
+    border: 2px solid #e7e7e7;
+  }
+}

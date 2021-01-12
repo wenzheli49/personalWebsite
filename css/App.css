@@ -122,6 +122,12 @@
     width:100%;
 		float:none;
   }
+  .wrap .brief img {
+    width: 150px;
+    height: 150px;
+    border-radius: 120px;
+    margin-top: 20px;
+  }
 }
 
 .wrap .brief ul {
